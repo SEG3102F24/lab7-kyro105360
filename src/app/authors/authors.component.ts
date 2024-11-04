@@ -26,7 +26,7 @@ export class AuthorsComponent {
       },
       error: () => {
         this.authorDetails = null;
-        this.message = 'Author not found';
+        this.message = 'couldn\'t find author with that id';
       }
     });
   }
